@@ -19,8 +19,8 @@ h2 {
 }
 
 .card-img-overlay .card-title {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(102, 63, 63);
+  background-color: rgba(219, 199, 199, 0.5);
 }
 
 .row-content {
