@@ -41,15 +41,15 @@ h2 {
 }
 
 .navbar-brand img {
-  width: 100%;
-  height: 100%;
+  width: 200%;
+  height: 200%;
   margin-right: 2rem;
-  max-width: 8rem;
+  max-width: 40rem;
 }
 
 .navbar-dark {
   background-color: #2dd668;
-  background-image: linear-gradient(to right,#315421, #317c0e, #315421);
+  background-image: linear-gradient(to right, #315421, #317c0e, #315421);
   margin-bottom: 2rem;
   min-height: 8rem;
 }
