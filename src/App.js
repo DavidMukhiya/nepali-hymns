@@ -1,15 +1,20 @@
 import './App.css';
+import { Container } from 'reactstrap';
 import HymnsList from './features/hymns/HymnsList';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      {/* <HymnsCard campsite={CAMPSITES[0]} /> */}
-      <HymnsList />
-    </div>
+    <Container>
+      {/* <div className="App"> */}
+        <Header />
+        {/* <HymnsCard campsite={CAMPSITES[0]} /> */}
+        <HymnsList />
+        <Footer />
+      {/* </div> */}
+    </Container>
   );
 }
 
