@@ -1,8 +1,9 @@
 import './App.css';
 import { Container, Navbar, NavbarBrand } from 'reactstrap';
 import hymnsLogo from './app/assets/img/hymns.png';
-import HymnsCard from './features/hymns/HymnsCard';
-import { CAMPSITES } from './app/shared/CAMPSITES';
+//import HymnsCard from './features/hymns/HymnsCard';
+//import { CAMPSITES } from './app/shared/CAMPSITES';
+import HymnsList from './features/hymns/HymnsList';
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
           </NavbarBrand>
         </Container>
       </Navbar>
-      <HymnsCard campsite={CAMPSITES[0]} />
+      {/* <HymnsCard campsite={CAMPSITES[0]} /> */}
+      <HymnsList />
     </div>
   );
 }
